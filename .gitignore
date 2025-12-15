@@ -1,0 +1,68 @@
+# Generated executable
+bin/
+parking
+
+# Build artifacts and object files
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Generated documentation
+docs/generated/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Debugging and profiling
+*.gch
+*.pdb
+*.stackdump
+core
+core.*
+gmon.out
+callgrind.out.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*#
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.directory
+
+# CMake (if used in future)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+
+# Testing artifacts
+*.gcov
+*.gcda
+*.gcno
+coverage/
+test_output.txt
+
+# Data files (generated during runtime)
+*.log
+*.csv
+
+# Environment and dependency files
+.env
+.env.local
+dependencies/
+vendor/
