@@ -2,12 +2,43 @@
 
 A C project for managing a parking lot, including user authentication, slot management, vehicle tracking, billing, and reporting.
 
-### RUN PROJECT
+## Prerequisites
 
- **Prerequisite**
+* GCC Compiler installed
+* Make utility
 
- * GCC COMPILER installed
+## Essential Commands
 
+### Build the Project
 ```sh
-make run 
+make all
 ```
+
+### Run the Application
+```sh
+make run
+```
+
+### Run All Tests
+```sh
+make test
+```
+
+### Clean Build Artifacts
+```sh
+make clean
+```
+
+### Format Code (requires clang-format)
+```sh
+make format
+```
+
+## Project Structure
+
+* `src/` - Source files (.c)
+* `include/` - Header files (.h)
+* `tests/` - Unit test files
+* `bin/` - Compiled binaries
+* `build/` - Object files
+* `data/` - CSV data files (users, vehicles, slots, logs)

@@ -1,5 +1,5 @@
 // test_billing.c
-#include "../src/billing.h"
+#include "billing.h"
 #include <assert.h>
 #include <stdio.h>
 

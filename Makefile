@@ -32,8 +32,7 @@ clean:
 
 test: all
 	@echo "Running tests..."
-	# If you have test binaries, run them here. Example (uncomment when available):
-	# ./tests/run_tests.sh
+	@cd tests && bash run_tests.sh
 
 format:
 	# Optional: run clang-format if installed

@@ -1,6 +1,6 @@
 # Generated executable
-bin/
-parking
+bin/**
+parking/**
 
 # Build artifacts and object files
 build/
@@ -66,3 +66,4 @@ test_output.txt
 .env.local
 dependencies/
 vendor/
+
